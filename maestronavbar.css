@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: #343a40; /* Color de fondo negro */
+    color: white; /* Color del texto en blanco */
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white; /* Color del texto del logo */
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white; /* Color del texto de los enlaces */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #495057; /* Color de fondo al pasar el ratón */
+}
+
+.nav-link.active {
+    background-color: #007bff; /* Color de fondo para el enlace activo */
+    color: white; /* Color del texto en blanco para el enlace activo */
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.logout {
+    margin-top: auto; /* Mantiene el botón al final del menú */
+    margin-bottom: 10px; /* Añadir margen inferior para un mejor espaciado */
+}
+
+.btn {
+    display: block; /* Asegúrate de que el botón ocupe el ancho completo */
+    width: calc(100% - 20px); /* Ajustar el ancho para incluir márgenes */
+    padding: 10px; /* Mantener un relleno consistente */
+    background-color: #dc3545; /* Color del botón */
+    color: white; /* Color del texto en blanco */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar a puntero al pasar el ratón */
+    margin-left: 10px; /* Espaciado horizontal */
+    margin-right: 10px; /* Espaciado horizontal */
+}
+
+.btn:hover {
+    background-color: #c82333; /* Color del botón al pasar el ratón */
+}
+
+
+
+
+
+.light-mode {
+    background-color: white; /* Color de fondo blanco */
+    color: black; /* Color del texto en negro */
+}
+
+.light-mode .nav-link {
+    color: black; /* Color del texto de los enlaces en modo claro */
+}
+
+.light-mode .nav-link:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón en modo claro */
+}
+
+.light-mode .nav-link.active {
+    background-color: #007bff; /* Color de fondo para el enlace activo en modo claro */
+    color: white; /* Color del texto en blanco para el enlace activo en modo claro */
+}
+
+.light-mode .btn {
+    background-color: #dc3545; /* Color del botón en modo claro */
+    color: white; /* Color del texto en blanco del botón */
+}
